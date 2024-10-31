@@ -1,0 +1,7 @@
+/* automatically created on 2014-04-28 11:19:00 by wp39.lan */
+
+#npf-widget-container{width:200px;}
+#npf-wid-topShadow,#npf-wid-botShadow{width:80%;margin-left:10%;height:10px;background:url(http://wp39.lan/wp-content/plugins/noprofeedorg/img/widget-shadow.png) no-repeat center top;display:block;}
+#npf-wid-botShadow{background:url(http://wp39.lan/wp-content/plugins/noprofeedorg/img/widget-shadow.png) no-repeat center bottom;}
+#npf-widget{padding:10px 20px;border:1px solid #FFFFFF;color:#7B7051;background:#B5DBB4 url(http://wp39.lan/wp-content/plugins/noprofeedorg/img/bg-pattern.png) repeat;}
+#npf-widget a {color:#2585A8;}

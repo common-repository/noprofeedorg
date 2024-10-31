@@ -1,0 +1,286 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: noprofeed.org\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-11-21 14:21+0100\n"
+"PO-Revision-Date: 2011-11-21 14:22+0100\n"
+"Last-Translator: Camaleo <info@myeasywp.com>\n"
+"Language-Team: seed <ugo.grandolini@seedlearn.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../class.noprofeed.php:107
+msgid "impossible to update the cache table, the server reported the following problems"
+msgstr "impossibile aggiornare la tabella della cache, il server ha segnalato i seguenti errori"
+
+#: ../class.noprofeed.php:112
+msgid "Click here to change settings"
+msgstr "Clicca qui per cambiare le impostazioni"
+
+#: ../class.noprofeed.php:115
+#: ../class.noprofeed.php:174
+#: ../class.noprofeed.php:190
+#: ../class.noprofeed.php:205
+msgid "Click here for support"
+msgstr "Clicca qui per aiuto"
+
+#: ../class.noprofeed.php:159
+msgid "cache table correctly updated!"
+msgstr "la tabella della cache è stata aggiornata correttaemente!"
+
+#: ../class.noprofeed.php:171
+msgid "impossible to update the cache table, received incomplete data from the server!"
+msgstr "impossibile aggiornare la tabella della cache, sono stati ricevuti dati incompleti dal server!"
+
+#: ../class.noprofeed.php:187
+msgid "impossible to create the cache table!"
+msgstr "impossibile creare la tabella per la cache!"
+
+#: ../class.noprofeed.php:202
+msgid "the widget style customization file is missing or not writeable!"
+msgstr "il file per la personalizzazione dello stile del widget è mancante!"
+
+#: ../class.noprofeed.php:249
+msgid "Update Options"
+msgstr "Aggiorna le opzioni"
+
+#: ../class.noprofeed.php:250
+msgid "Update Options and Reload The Feeds Cache"
+msgstr "Aggiorna le opzioni e ricarica la cache dei feeds"
+
+#: ../class.noprofeed.php:251
+msgid "Activate"
+msgstr "Attiva"
+
+#: ../class.noprofeed.php:252
+msgid "Deactivate"
+msgstr "Disattiva"
+
+#: ../class.noprofeed.php:253
+msgid "Fully deactivate"
+msgstr "Disattiva completamente"
+
+#: ../class.noprofeed.php:347
+#: ../class.noprofeed.php:391
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../class.noprofeed.php:359
+msgid "For further information please visit"
+msgstr "Per ulteriori informazioni visita"
+
+#: ../class.noprofeed.php:646
+msgid "Settings about how the widget will look like"
+msgstr "Impostazioni sulla visualizzazione del widget"
+
+#: ../class.noprofeed.php:684
+msgid "Actual widget size: "
+msgstr "Dimensione attuale del widget:"
+
+#: ../class.noprofeed.php:685
+msgid "width"
+msgstr "larghezza"
+
+#: ../class.noprofeed.php:686
+msgid "height"
+msgstr "altezza"
+
+#: ../class.noprofeed.php:692
+msgid "Move the slider knob to change the widget size; size limits are in the range of 200~401 pixels."
+msgstr "Sposta la manopola qui sotto per cambiare la larghezza del widget; le dimensioni sono comprese tra 200 e 401 pixels."
+
+#: ../class.noprofeed.php:695
+msgid "Please wait..."
+msgstr "Attendere..."
+
+#: ../class.noprofeed.php:699
+msgid "The height of the widget is determined by the following settings: increasing their values you will increase the widget height."
+msgstr "L'altezza del widget è determinata dalle seguenti impostazioni: aumentando i loro valori aumenterai l'altezza del widget."
+
+#: ../class.noprofeed.php:703
+msgid "Number of feeds"
+msgstr "Numero dei feed"
+
+#: ../class.noprofeed.php:731
+msgid "How much information will be shown for each feed"
+msgstr "Quante informazioni visualizzare per ogni feed"
+
+#: ../class.noprofeed.php:735
+msgid "The title and the entire feed content"
+msgstr "Il titolo ed il contenuto completo del feed"
+
+#: ../class.noprofeed.php:736
+msgid "The title and the first sentence"
+msgstr "Il titolo e la prima frase del feed"
+
+#: ../class.noprofeed.php:737
+msgid "Just the title"
+msgstr "Solo il titolo"
+
+#: ../class.noprofeed.php:744
+msgid "Show the Read more link"
+msgstr "Visualizza il link \"Approfondisci\""
+
+#: ../class.noprofeed.php:750
+msgid "Show the organization information"
+msgstr "Visualizza le informazioni dell'organizzazione"
+
+#: ../class.noprofeed.php:756
+msgid "Show the feed donation button"
+msgstr "Visualizza il bottone per le donazioni"
+
+#: ../class.noprofeed.php:762
+msgid "Show the shortest possible widget"
+msgstr "Visualizza il widget più piccolo possibile"
+
+#: ../class.noprofeed.php:764
+msgid "Show the most complete information"
+msgstr "Visualizza il widget con tutte le informazioni disponibili"
+
+#: ../class.noprofeed.php:783
+msgid "Style"
+msgstr "Stile"
+
+#: ../class.noprofeed.php:786
+msgid "Text color"
+msgstr "Colore del testo"
+
+#: ../class.noprofeed.php:788
+msgid "Links color"
+msgstr "Colore dei links"
+
+#: ../class.noprofeed.php:793
+msgid "Background color"
+msgstr "Colore dello sfondo"
+
+#: ../class.noprofeed.php:795
+msgid "Border color"
+msgstr "Colore del bordo"
+
+#: ../class.noprofeed.php:802
+msgid "Give the background a paper feeling"
+msgstr "Imposta lo sfondo simile alla grana della carta"
+
+#: ../class.noprofeed.php:808
+msgid "Show the shadows to give a 3D effect"
+msgstr "Visualizza le ombre per dare un effetto 3D"
+
+#: ../class.noprofeed.php:814
+msgid "Reset the default values"
+msgstr "Reimposta i valori iniziali (default)"
+
+#: ../class.noprofeed.php:1012
+msgid "Help non-profit organizations to disseminate about their activities and to collect donations."
+msgstr "Aiuta le organizzazioni no-profit a farsi conoscere e a raccogliere fondi."
+
+#: ../class.noprofeed.php:1112
+msgid "Help non-profit orgs!"
+msgstr "Aiuta le no-profit!"
+
+#: ../class.noprofeed.php:1118
+msgid "Title:"
+msgstr "Titolo:"
+
+#: ../class.noprofeed.php:1310
+msgid "Read more"
+msgstr "Approfondisci"
+
+#: ../inc/myEASYcom.php:73
+msgid "myEASY Series official site"
+msgstr "il sito ufficiale della serie myEASY"
+
+#: ../inc/myEASYcom.php:75
+msgid "Be the first to know what's going on! Join Our Mailing List:"
+msgstr "Rimani aggiornato! Sottoscrivi la nostra mailing list:"
+
+#: ../inc/myEASYcom.php:84
+msgid "Your privacy is critically important to us!"
+msgstr "La tua privacy è estremamente importante per noi!"
+
+#: ../inc/sample_widget.php:3
+msgid "Here below you can see a sample of how the widget will look like in your site."
+msgstr "Qui sotto puoi vedere un esempio di come verrà visualizzato il widget nel tuo sito."
+
+#: ../inc/sample_widget.php:5
+msgid "Feel free to experiment by changing the values in the box here on the right, when you are happy with the widget look, click on one of the two \"Update Options\" buttons on the bottom of this page."
+msgstr "Sperimenta liberamente cambiando i valori nella sezione sulla destra, quando il widget ti piace clicca su uno dei due bottoni \"Aggiorna le opzioni\" in fondo alla pagina."
+
+#: ../inc/shared-functions-.php:123
+#: ../inc/shared-functions.php:123
+msgid "To be shown in the widget, each feed is filtered pending on the following settings"
+msgstr "Prima di essere visualizzati nel widget, ciascun feed sarà filtrato in base alle seguenti impostazioni "
+
+#: ../inc/shared-functions-.php:129
+#: ../inc/shared-functions.php:129
+msgid "To be shown your feeds will be filtered pending on the following settings"
+msgstr "Prima di essere visualizzati i tuoi feed saranno filtrati in base alle seguenti impostazioni"
+
+#: ../inc/shared-functions-.php:157
+#: ../inc/shared-functions.php:157
+msgid "The feed must be written in one of the selected languages:"
+msgstr "Il feed deve essere scritto in una delle seguenti lingue:"
+
+#: ../inc/shared-functions-.php:162
+#: ../inc/shared-functions.php:162
+msgid "In which languages your feeds are written?"
+msgstr "In quali lingue sono scritti i tuoi feed?"
+
+#: ../inc/shared-functions-.php:221
+#: ../inc/shared-functions.php:221
+msgid "If you would like to publish one or more feeds in a language that is not included in the list,"
+msgstr "Se vuoi pubblicare uno o più feed in una lingua he non è stata inclusa nella lista,"
+
+#: ../inc/shared-functions-.php:225
+#: ../inc/shared-functions.php:225
+msgid "If your language is not included in the list,"
+msgstr "Se la tua lingua non è inclusa nella lista,"
+
+#: ../inc/shared-functions-.php:229
+#: ../inc/shared-functions.php:229
+msgid "please let us know"
+msgstr "faccelo sapere"
+
+#: ../inc/shared-functions-.php:243
+#: ../inc/shared-functions.php:243
+msgid "And must be associated by its author to the following selected categories:"
+msgstr "E devono essere associate dai loro autori alle seguenti categorie:"
+
+#: ../inc/shared-functions-.php:247
+#: ../inc/shared-functions.php:247
+msgid "Which categories your feeds are related to?"
+msgstr "A quali categorie è inerente il tuo feed?"
+
+#: ../inc/shared-functions-.php:260
+#: ../inc/shared-functions-.php:319
+#: ../inc/shared-functions.php:260
+#: ../inc/shared-functions.php:319
+msgid "All"
+msgstr "Tutte"
+
+#: ../inc/shared-functions-.php:263
+#: ../inc/shared-functions-.php:322
+#: ../inc/shared-functions.php:263
+#: ../inc/shared-functions.php:322
+msgid "None"
+msgstr "Nessuna"
+
+#: ../inc/shared-functions-.php:302
+#: ../inc/shared-functions.php:302
+msgid "The feed should talk about an activity that take place in one of the following selected areas:"
+msgstr "Il feed dovrebbe essere relativo ad attività che si svolgono in una delle seguenti aree:"
+
+#: ../inc/shared-functions-.php:306
+#: ../inc/shared-functions.php:306
+msgid "Which geographics areas are covered by your activities?"
+msgstr "In quali aree geografiche svolgi le tue attività?"
+

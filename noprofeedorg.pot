@@ -1,0 +1,281 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/noprofeedorg\n"
+"POT-Creation-Date: 2011-11-21 13:53:42+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: inc/myEASYcom.php:73
+msgid "myEASY Series official site"
+msgstr ""
+
+#: inc/myEASYcom.php:75
+msgid "Be the first to know what's going on! Join Our Mailing List:"
+msgstr ""
+
+#: inc/myEASYcom.php:84
+msgid "Your privacy is critically important to us!"
+msgstr ""
+
+#: inc/shared-functions.php:123
+msgid ""
+"To be shown in the widget, each feed is filtered pending on the following "
+"settings"
+msgstr ""
+
+#: inc/shared-functions.php:129
+msgid ""
+"To be shown your feeds will be filtered pending on the following settings"
+msgstr ""
+
+#: inc/shared-functions.php:157
+msgid "The feed must be written in one of the selected languages:"
+msgstr ""
+
+#: inc/shared-functions.php:162
+msgid "In which languages your feeds are written?"
+msgstr ""
+
+#: inc/shared-functions.php:221
+msgid ""
+"If you would like to publish one or more feeds in a language that is not "
+"included in the list,"
+msgstr ""
+
+#: inc/shared-functions.php:225
+msgid "If your language is not included in the list,"
+msgstr ""
+
+#: inc/shared-functions.php:229
+msgid "please let us know"
+msgstr ""
+
+#: inc/shared-functions.php:243
+msgid ""
+"And must be associated by its author to the following selected categories:"
+msgstr ""
+
+#: inc/shared-functions.php:247
+msgid "Which categories your feeds are related to?"
+msgstr ""
+
+#: inc/shared-functions.php:260 inc/shared-functions.php:319
+msgid "All"
+msgstr ""
+
+#: inc/shared-functions.php:263 inc/shared-functions.php:322
+msgid "None"
+msgstr ""
+
+#: inc/shared-functions.php:302
+msgid ""
+"The feed should talk about an activity that take place in one of the "
+"following selected areas:"
+msgstr ""
+
+#: inc/shared-functions.php:306
+msgid "Which geographics areas are covered by your activities?"
+msgstr ""
+
+#: inc/sample_widget.php:3
+msgid ""
+"Here below you can see a sample of how the widget will look like in your "
+"site."
+msgstr ""
+
+#: inc/sample_widget.php:5
+msgid ""
+"Feel free to experiment by changing the values in the box here on the right, "
+"when you are happy with the widget look, click on one of the two \"Update "
+"Options\" buttons on the bottom of this page."
+msgstr ""
+
+#: class.noprofeed.php:107
+msgid ""
+"impossible to update the cache table, the server reported the following "
+"problems"
+msgstr ""
+
+#: class.noprofeed.php:112
+msgid "Click here to change settings"
+msgstr ""
+
+#: class.noprofeed.php:115 class.noprofeed.php:174 class.noprofeed.php:190
+#: class.noprofeed.php:205
+msgid "Click here for support"
+msgstr ""
+
+#: class.noprofeed.php:159
+msgid "cache table correctly updated!"
+msgstr ""
+
+#: class.noprofeed.php:171
+msgid ""
+"impossible to update the cache table, received incomplete data from the "
+"server!"
+msgstr ""
+
+#: class.noprofeed.php:187
+msgid "impossible to create the cache table!"
+msgstr ""
+
+#: class.noprofeed.php:202
+msgid "the widget style customization file is missing or not writeable!"
+msgstr ""
+
+#: class.noprofeed.php:249
+msgid "Update Options"
+msgstr ""
+
+#: class.noprofeed.php:250
+msgid "Update Options and Reload The Feeds Cache"
+msgstr ""
+
+#: class.noprofeed.php:251
+msgid "Activate"
+msgstr ""
+
+#: class.noprofeed.php:252
+msgid "Deactivate"
+msgstr ""
+
+#: class.noprofeed.php:253
+msgid "Fully deactivate"
+msgstr ""
+
+#: class.noprofeed.php:347 class.noprofeed.php:391
+msgid "Settings"
+msgstr ""
+
+#: class.noprofeed.php:359
+msgid "For further information please visit"
+msgstr ""
+
+#: class.noprofeed.php:646
+msgid "Settings about how the widget will look like"
+msgstr ""
+
+#: class.noprofeed.php:684
+msgid "Actual widget size: "
+msgstr ""
+
+#: class.noprofeed.php:685
+msgid "width"
+msgstr ""
+
+#: class.noprofeed.php:686
+msgid "height"
+msgstr ""
+
+#: class.noprofeed.php:692
+msgid ""
+"Move the slider knob to change the widget size; size limits are in the range "
+"of 200~401 pixels."
+msgstr ""
+
+#: class.noprofeed.php:695
+msgid "Please wait..."
+msgstr ""
+
+#: class.noprofeed.php:699
+msgid ""
+"The height of the widget is determined by the following settings: increasing "
+"their values you will increase the widget height."
+msgstr ""
+
+#: class.noprofeed.php:703
+msgid "Number of feeds"
+msgstr ""
+
+#: class.noprofeed.php:731
+msgid "How much information will be shown for each feed"
+msgstr ""
+
+#: class.noprofeed.php:735
+msgid "The title and the entire feed content"
+msgstr ""
+
+#: class.noprofeed.php:736
+msgid "The title and the first sentence"
+msgstr ""
+
+#: class.noprofeed.php:737
+msgid "Just the title"
+msgstr ""
+
+#: class.noprofeed.php:744
+msgid "Show the Read more link"
+msgstr ""
+
+#: class.noprofeed.php:750
+msgid "Show the organization information"
+msgstr ""
+
+#: class.noprofeed.php:756
+msgid "Show the feed donation button"
+msgstr ""
+
+#: class.noprofeed.php:762
+msgid "Show the shortest possible widget"
+msgstr ""
+
+#: class.noprofeed.php:764
+msgid "Show the most complete information"
+msgstr ""
+
+#: class.noprofeed.php:783
+msgid "Style"
+msgstr ""
+
+#: class.noprofeed.php:786
+msgid "Text color"
+msgstr ""
+
+#: class.noprofeed.php:788
+msgid "Links color"
+msgstr ""
+
+#: class.noprofeed.php:793
+msgid "Background color"
+msgstr ""
+
+#: class.noprofeed.php:795
+msgid "Border color"
+msgstr ""
+
+#: class.noprofeed.php:802
+msgid "Give the background a paper feeling"
+msgstr ""
+
+#: class.noprofeed.php:808
+msgid "Show the shadows to give a 3D effect"
+msgstr ""
+
+#: class.noprofeed.php:814
+msgid "Reset the default values"
+msgstr ""
+
+#: class.noprofeed.php:1012
+msgid ""
+"Help non-profit organizations to disseminate about their activities and to "
+"collect donations."
+msgstr ""
+
+#: class.noprofeed.php:1112
+msgid "Help non-profit orgs!"
+msgstr ""
+
+#: class.noprofeed.php:1118
+msgid "Title:"
+msgstr ""
+
+#: class.noprofeed.php:1310
+msgid "Read more"
+msgstr ""

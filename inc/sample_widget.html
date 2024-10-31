@@ -1,0 +1,195 @@
+<style type="text/css">
+#npf-widget-container {
+	width:258px;
+}
+	#npf-widget {
+		text-align:left;
+		padding:10px 20px;
+		width:100%;
+		border:1px solid #DED9D2;
+
+		/* customizable */
+		color:#666666;
+		background:#DED9D2 url(../img/bg-pattern.png) repeat;
+	}
+
+	#npf-widget a {
+		font-weight:normal;
+		text-decoration:underline;
+
+		/* customizable */
+		color:#346AA8;
+	}
+		#npf-widget a:hover,
+		#npf-widget a:focus,
+		#npf-widget a:active {
+			text-decoration:none;
+		}
+
+	.npf-wid-header {
+		font-size:16px;
+		font-weight:normal;
+	}
+
+	.npf-wid-block {
+		margin-bottom:12px;
+	}
+		.npf-wid-body {
+			font-size:14px;
+			font-weight:normal;
+			margin:0;
+		}
+			span.npf-wid-feed-title,
+			#npf-widget span.npf-wid-feed-title a {
+				font-size:14px;
+				font-weight:bold;
+			}
+
+			span.npf-wid-feed-date {
+				font-style:italic;
+				font-size:smaller;
+				margin-left:8px;
+				cursor:default;
+			}
+
+			span.npf-wid-rateStatus {
+				float:left;
+				clear:both;
+				width:100%;
+				height:20px;
+				text-shadow:1px 1px 3px #333333;
+			}
+			span.npf-wid-ratingSaved { display:none; }
+
+				.npf-wid-rateMe { float:left;clear:both;width:100%;height:auto;padding:0;margin:0; }
+				.npf-wid-rateMe li{ float:left;list-style:none; }
+				.npf-wid-rateMe li a:hover,
+				.npf-wid-rateMe .on { background:url(../img/star.png) no-repeat -21px 0px; }
+				.npf-wid-rateMe a { float:left;background:url(../img/star.png) no-repeat 0px 0px;width:20px;height:20px; }
+				.npf-wid-rating-saved { color:red; }
+
+			span.npf-wid-feed-title,
+			span.npf-wid-rateStatus {
+
+				color:#000000;
+			}
+
+			span.npf-wid-rateStatus {
+
+				display:none;
+			}
+
+
+		div.npf-wid-feed-info {
+			margin:2px 0 0 2%;
+			float:left;
+		}
+
+		div.npf-wid-feed-org {
+			float:left;
+			font-size:14px;
+			font-weight:normal;
+			margin-left:8px;
+		}
+			.npf-wid-rating {
+				margin-left:0;
+				margin-bottom:8px;
+				cursor:pointer;
+			}
+
+		.npf-wid-donate-feed {
+			width:100px;
+			height:26px;
+			margin-left:6px;
+			background:url(../img/donate-button-sml.png) no-repeat 0px -4px;
+			cursor:pointer;
+		}
+			.npf-wid-donate-feed:hover {
+				background:url(../img/donate-button-sml.png) no-repeat 0px -30px;
+			}
+			.npf-wid-donate-feed:active {
+				background:url(../img/donate-button-sml.png) no-repeat 0px -56px;
+			}
+
+	.npf-wid-donate-us {
+		width:190px;
+		height:50px;
+		background:url(../img/support-us-button.png) no-repeat 0px -4px;
+		cursor:pointer;
+	}
+		.npf-wid-donate-us:hover {
+			background:url(../img/support-us-button.png) no-repeat 0px -53px;
+		}
+		.npf-wid-donate-us:active {
+			background:url(../img/support-us-button.png) no-repeat 0px -103px;
+		}
+</style>
+<script src="../img/npf-rating.js" type="text/javascript" language="javascript"></script>
+<div id="npf-widget-container">
+	<div style="width:115%;margin-left:0;height:10px;background:url(../img/widget-shadow.png) no-repeat center top;"></div>
+	<div id="npf-widget">
+
+		<div class="npf-wid-header">
+			<img src="../img/logo-widget.png" alt="" width="100%" />
+		</div>
+
+		<div class="npf-wid-block">
+			<div class="npf-wid-body">
+				<span class="npf-wid-feed-title">
+					<a href="#">The Title Of This News</a>
+				</span><br />
+				<div class="npf-wid-rating">
+					<span id="npf-wid-rateStatus-1" class="npf-wid-rateStatus">Rate this info</span>
+					<span id="npf-wid-ratingSaved-1" class="npf-wid-ratingSaved">Rating Saved!</span>
+					<div class="npf-wid-rateMe" title="Rate this organization">
+						<a id="widrate1_1" title="ehh..." onmouseover="npf_WidRating(this,1)" onmouseout="npf_WidRatingOff(this,1);npf_setActualRating(5,1)"></a>
+						<a id="widrate1_2" title="Not Bad" onmouseover="npf_WidRating(this,1)" onmouseout="npf_WidRatingOff(this,1);npf_setActualRating(5,1)"></a>
+						<a id="widrate1_3" title="Good" onmouseover="npf_WidRating(this,1)" onmouseout="npf_WidRatingOff(this,1);npf_setActualRating(5,1)"></a>
+						<a id="widrate1_4" title="Superb" onmouseover="npf_WidRating(this,1)" onmouseout="npf_WidRatingOff(this,1);npf_setActualRating(5,1)"></a>
+						<a id="widrate1_5" title="Awesome!" onmouseover="npf_WidRating(this,1)" onmouseout="npf_WidRatingOff(this,1);npf_setActualRating(5,1)"></a>
+						<span class="npf-wid-feed-date">25 Mar 2011</span>
+						<img style="vertical-align:middle;cursor:pointer;margin-left:6px;"
+						    src="../img/abuse.png" width="20"
+							title="Report abuse!"
+							onclick="alert('Do you want to report abuse for this news?');" />
+					</div>
+				</div>
+				<p style="clear:both;margin:0;">
+					We help non-profit organizations to publish their news on an increasing number of volunteers blog/sites!
+					<br /></a>&raquo;<a href="#">Read more</a>
+				</p>
+			</div>
+			<div class="npf-wid-feed-info">
+				<div class="npf-wid-feed-org">
+					<img style="vertical-align:middle;cursor:help;" width="16"
+					    src="http://noprofeed.org/favicon.ico" />
+					<a href="#"><strong>non-profit organization</strong></a>
+					<br />City, Country<br />
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<div class="npf-wid-donate-feed"></div>
+
+		</div>
+		<hr style="width:70%" />
+
+<!-- set the actual values for each rating -->
+<script>
+//npf_setActualRating({how many stars the feed already has},{feed id});
+npf_setActualRating(3,1);
+</script>
+
+		<div style="clear:both;width:100%;text-align:center;">
+			<p style="font-size:large;margin:6px 0;">
+				<a href="#">Add this to your blog!</a>
+			</p>
+			<div align="center">
+				<div class="npf-wid-donate-us"></div>
+			</div>
+		</div>
+
+	</div>
+	<div style="clear:both;"></div>
+	<div style="width:115%;margin-left:0;height:10px;background:url(../img/widget-shadow.png) no-repeat center bottom;"></div>
+</div>
+<div style="clear:both;"></div>

@@ -1,0 +1,8 @@
+/**
+ * Author: Addam M. Driver
+ * Date: 10/31/2006
+ * http://www.reignwaterdesigns.com/ad/tidbits/rateme/
+ *
+ * adapted to be used at noprofeed.org
+ * 2011
+ */function npf_WidRating(e,t){sMax=0;for(n=0;n<e.parentNode.childNodes.length;n++)e.parentNode.childNodes[n].nodeName=="A"&&sMax++;if(!rated){s=e.id.replace("widrate"+t+"_","");a=0;for(i=1;i<=sMax;i++)if(i<=s){document.getElementById("widrate"+t+"_"+i).className="on";document.getElementById("npf-wid-rateStatus-"+t).innerHTML=e.title;holder=a+1;a++}else document.getElementById("widrate"+t+"_"+i).className=""}}function npf_WidRatingOff(e,t){if(!rated)if(!preSet)for(i=1;i<=sMax;i++){document.getElementById("widrate"+t+"_"+i).className="";document.getElementById("npf-wid-rateStatus-"+t).innerHTML=e.parentNode.title}else{npf_WidRating(preSet);document.getElementById("npf-wid-rateStatus-"+t).innerHTML=document.getElementById("npf-wid-ratingSaved-"+t).innerHTML}}function npf_WidRate(e,t){if(!rated){document.getElementById("npf-wid-rateStatus-"+t).innerHTML=document.getElementById("npf-wid-ratingSaved-"+t).innerHTML+" :: "+e.title;preSet=e;rated=1;npf_WidRatingSendRate(e,t);npf_WidRating(e,t)}}function npf_WidRatingSendRate(e){alert("Your rating was: "+e.title+"\n\nAJAX code to be implemented!")}function npf_setActualRating(e,t){for(var n=1;n<=e;n++)npf_WidRating(document.getElementById("widrate"+t+"_"+n),t)}var sMax,holder,preSet,rated;
